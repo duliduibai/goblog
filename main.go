@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	//"github.com/duliduibai/goblog/accountservic/service"
+	"services.com/service"
 )
 
 var appName = "accountservice"
 
 func main() {
 	fmt.Printf("Starting %v\n", appName)
-	//service.StartWebServer("8995")
+	service.StartWebServer("8995")
 }
