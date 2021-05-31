@@ -1,4 +1,4 @@
-module services.com/service
+module service
 
 go 1.15
 
